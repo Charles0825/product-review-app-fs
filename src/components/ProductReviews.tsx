@@ -354,9 +354,9 @@ const ProductReviews: React.FC<ProductReviewsProps> = ({
           key={review.id}
           review={{
             id: review.id,
-            authorName: review.name,
-            authorEmail: review.email,
-            authorImage: review.avatar,
+            name: review.name,
+            email: review.email,
+            avatar: review.avatar,
             title: review.title,
             content: review.content,
             rating: normalizeRating(Number(review.rating)),
